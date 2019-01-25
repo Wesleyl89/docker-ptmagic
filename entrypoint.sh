@@ -16,6 +16,8 @@ echo "Setting rw rights on files in /mnt/ptmagic"
 chmod -R 666 /mnt/ptmagic/*
 echo "Creating symlink to /mnt/ptmagic/Monitor/appsettings.json in /opt/pt-magic/ptm-binance/Monitor"
 ln -s /mnt/ptmagic/Monitor/appsettings.json /opt/pt-magic/ptm-binance/Monitor/appsettings.json
+echo "Creating symlink from /mnt/ptmagic/properties to /opt/pt-magic/ptm-binance/_presets"
+ln -s /mnt/ptmagic/properties /opt/pt-magic/ptm-binance/_presets
 echo "Creating symlink to /mnt/ptmagic/settings.analyzer.json in /opt/pt-magic/ptm-binance"
 ln -s /mnt/ptmagic/settings.analyzer.json /opt/pt-magic/ptm-binance/settings.analyzer.json
 echo "Creating symlink to /mnt/ptmagic/settings.general.json in /opt/pt-magic/ptm-binance"
