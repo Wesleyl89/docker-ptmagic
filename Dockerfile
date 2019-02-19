@@ -1,6 +1,6 @@
 FROM trueosiris/ubuntu-dotnet:2.1.4
 MAINTAINER tim@chaubet.be
-LABEL docker-ptmagic.version="2.1.2"
+LABEL docker-ptmagic.version="2.1.1"
 ADD VERSION .
 
 ENV TZ 'Europe/Brussels'
