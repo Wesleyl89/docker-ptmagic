@@ -4,7 +4,7 @@ LABEL docker-ptmagic.version="2.1.1"
 ADD VERSION .
 
 ENV TZ 'Europe/Brussels'
-ENV PG_VERSION 2.1.2
+ENV PG_VERSION 2.1.1
 # to be fixed: the zip is pulled in the dockerfile. changing the version won't change the zipfile from the default.
                        
 RUN mkdir -p /opt/pt-magic/ptm-binance \
