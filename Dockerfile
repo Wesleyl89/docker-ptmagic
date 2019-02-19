@@ -1,4 +1,4 @@
-FROM trueosiris/ubuntu-dotnet:2.1.0
+FROM wsly89/ubuntu-dotnet:2.1.7
 MAINTAINER tim@chaubet.be
 LABEL docker-ptmagic.version="2.1.2"
 ADD VERSION .
