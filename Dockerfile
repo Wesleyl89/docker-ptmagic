@@ -1,4 +1,4 @@
-FROM wsly90/ubuntu-dotnet
+FROM wsly89/ubuntu-dotnet:latest
 MAINTAINER tim@chaubet.be
 LABEL docker-ptmagic.version="2.1.2"
 ADD VERSION .
