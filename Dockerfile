@@ -1,11 +1,10 @@
 FROM wsly89/ubuntu-dotnet:latest
 MAINTAINER tim@chaubet.be
-LABEL docker-ptmagic.version="2.1.2"
+LABEL docker-ptmagic.version="2.2.1"
 ADD VERSION .
 
 ENV TZ 'Europe/Brussels'
-ENV PG_VERSION 2.1.2
-# to be fixed: the zip is pulled in the dockerfile. changing the version won't change the zipfile from the default.
+ENV PG_VERSION 2.2.1
                        
 RUN mkdir -p /opt/pt-magic/ptm-binance \
  && cd /opt/pt-magic/ptm-binance \ 
